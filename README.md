@@ -1,5 +1,5 @@
 ## Developer
-[Markanthonydevs]
+Markanthonydevs
 
 # Arduino Sumobot with Line Detection
 
