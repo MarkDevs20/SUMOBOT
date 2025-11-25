@@ -1,3 +1,6 @@
+## Developer
+[Markanthonydevs]
+
 # Arduino Sumobot with Line Detection
 
 A competitive sumobot robot built with Arduino that uses ultrasonic sensors for enemy detection and infrared line sensors for ring boundary detection.
@@ -206,11 +209,4 @@ MIT License - Feel free to modify and use for your projects
 
 Pull requests are welcome! For major changes, please open an issue first to discuss proposed changes.
 
-## Author
 
-[Your Name]
-
-## Acknowledgments
-
-- Adafruit for the Motor Shield library
-- Arduino community for IRremote library
