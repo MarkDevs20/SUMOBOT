@@ -110,39 +110,6 @@ The sumobot operates in three modes:
 - When no enemy is detected
 - Action: Spins in place to search (speed 200)
 
-## IR Remote Buttons
-
-| Button | Function |
-|--------|----------|
-| POWER  | Turn robot ON/OFF |
-| SUMO   | Start/Stop sumo mode |
-| CALIB  | Calibrate line sensors |
-
-## Code Structure
-```
-setup()
-  ├── Initialize serial communication
-  ├── Setup IR receiver
-  ├── Configure motors
-  ├── Setup sensors
-  └── Display ready message
-
-loop()
-  ├── Read IR remote commands
-  ├── Handle button presses
-  └── Run sumobot mode if active
-
-sumobotMode()
-  ├── Check line sensors (priority)
-  ├── Check ultrasonic for enemy
-  └── Execute appropriate action
-
-calibrateLineSensors()
-  ├── Step 1: Read black line values
-  ├── Step 2: Read white surface values
-  └── Calculate threshold values
-```
-
 ## Troubleshooting
 
 ### Line Sensors Not Working
